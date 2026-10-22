@@ -3,10 +3,7 @@
 **Jae-Ryung Hong, Ho-Joong Kim, Seong-Whan Lee**  
 Department of Artificial Intelligence, Korea University
 
-[Paper][paper] | [PDF][paper-pdf] | [Code][repo] | [Citation](#citation)
-
-> **README Draft**  
-> This draft is based on a comparison of the paper and the public repository. The installation steps and GPU evaluation have not been executed as part of preparing this README. The evaluation entry point still requires attention, including argument propagation. Please read the [Implementation Notes](#implementation-notes) before using the commands below.
+[Paper][paper] | [Code][repo] | [Citation](#citation)
 
 ## Overview
 
@@ -24,9 +21,7 @@ Set up the environment and datasets
 
 ProCal itself requires no additional training, but computing the proposal priors requires additional VLM inference.
 
-<!-- Add the original Figure 2 image to assets/procal_overview.png, then uncomment the line below.
-![ProCal overview](assets/procal_overview.png)
--->
+![ProCal overview](figures/method_figure_2.pdf)
 
 ## Main Results
 
